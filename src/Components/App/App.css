@@ -1,0 +1,72 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: .77rem 0;
+  background-color: #282828;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: #1ed760;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+}
+
+.signature {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.signature> a {
+  color: #ffffff
+}
+
+.signature > span {
+  display: block;
+  margin: 20px 35px 0 0;
+}
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background: #181818;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.reactLogo {
+  width: 30px;
+  margin: -6px 0 0 7px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
