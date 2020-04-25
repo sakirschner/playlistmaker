@@ -1,4 +1,8 @@
-##Playlist Maker live at http://scottsplaylistmaker.surge.sh/
+## Playlist Maker live at http://scottsplaylistmaker.surge.sh/
+
+Built with React and Spotify API this app allows you to search for songs and add them to a new playlist that will save to your personal spotify account. Preview the song before adding it to your playlist!
+
+![App Preview](https://i.imgur.com/gT2ccYu.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
